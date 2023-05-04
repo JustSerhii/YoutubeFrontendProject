@@ -23,10 +23,12 @@
     height: 25px;
     margin-left: 20px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .youtube-logo{
     height: 20px;
+    cursor: pointer;
 }
 
 .middle-section{
@@ -43,9 +45,7 @@
     height: 36px;
     padding-left: 10px;
     font-size: 16px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(191, 189, 189);
+    border: 1px solid rgb(191, 189, 189);
     border-radius: 2px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
     width: 0;
@@ -60,9 +60,7 @@
     height: 40px;
     width: 66px;
     background-color: rgb(240, 240, 240);
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(191, 189, 189);
+    border: 1px solid rgb(191, 189, 189);
     margin-left: -1px;
     margin-right: 10px;
 }
@@ -85,10 +83,7 @@
     position: absolute;
     background-color: gray;
     color: white;
-    padding-top: 4px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 4px 8px 8px 8px;
     border-radius: 2px;
     font-size: 12px;
     bottom: -35px;
@@ -159,10 +154,7 @@
     color: white;
     font-family: Roboto, Arial;
     font-size: 11px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding: 2px 5px;
     border-radius: 50%;
 }
 
